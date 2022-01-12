@@ -1,0 +1,69 @@
+@media only screen and (max-width: 801px) {
+  .relation-ship-container {
+    position: relative;
+    top: 1800px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .rel-image-cont-child-one img, .rel-image-cont-child-two img {
+    height: 20px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .relation-ship-container {
+    position: relative;
+    top: 3090px;
+  }
+}
+
+@media only screen and (max-width: 351px) {
+  .rel-image-cont-child-one, .rel-image-cont-child-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 35px;
+  }
+}
+
+@media only screen and (max-width: 298px) {
+  .relation-ship-container, .relation-ship-text-container, .relation-ship-images-container {
+    top: 3500px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .relation-ship-text-container {
+    text-align: center !important;
+    padding-left: 10px !important;
+  }
+  .relation-ship-text-container h1, .relation-ship-text-container p {
+    font-size: 15px !important;
+  }
+  .relation-ship-images-container {
+    width: 200px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    position: relative;
+    left: 10px;
+  }
+}
+/*# sourceMappingURL=relationshipmedia.css.map */

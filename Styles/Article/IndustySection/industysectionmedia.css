@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+  .industry-section {
+    position: relative;
+    top: 3650px;
+  }
+}
+
+@media only screen and (max-width: 423px) {
+  .industry-section div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .industry-section div img {
+    height: 70px;
+    width: 75px;
+  }
+}
+
+@media only screen and (max-width: 303px) {
+  .industry-section {
+    position: relative;
+    top: 4350px;
+  }
+}
+/*# sourceMappingURL=industysectionmedia.css.map */

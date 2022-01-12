@@ -1,0 +1,65 @@
+.where-are-you-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .way-cont-ul{
+        position: relative;
+        top:85px;
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 23px;
+        line-height: 38px;
+        text-align: center;
+        li{
+            a{
+                text-decoration: none;
+                color:black;
+            }
+            .active{
+                color:#0A8BFE;
+            }
+        }
+    }
+    .way-second-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        grid-gap: 75px;
+        position: relative;
+        top:139px;
+        .block-first,.block-second{
+            display: flex;
+            justify-content: space-around;
+            grid-gap: 75px;
+            .block-item{
+                height: 220px;
+                border: 1px solid #E8E8E8;
+                box-sizing: border-box;
+                border-radius: 3px;
+                .block-span{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    p{
+                        text-align: start;
+                    }
+                }
+            }
+        }
+        .way-btn{
+            height: 60px;
+            width: 174px;
+            background: #0A8BFE;
+            border-radius: 4px;
+            color:white;
+        }
+    }
+}

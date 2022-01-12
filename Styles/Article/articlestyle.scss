@@ -1,0 +1,14 @@
+article{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and(max-width:354px){
+    article{
+        display: flex;
+        flex-direction: column;
+        grid-gap: 125px;
+    }
+}

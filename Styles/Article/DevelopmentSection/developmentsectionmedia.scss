@@ -1,0 +1,40 @@
+@media only screen and(max-width:576px){
+    .development-block{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        justify-content: center;
+        .dev-block-text-child{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .hr-block{
+            transform: rotate(90deg);
+        }
+    }
+}
+@media only screen and(max-width:348px){
+    .development-block{
+        position: relative;
+        top:75px;
+    }   
+}
+@media only screen and(max-width:298px){
+    .development-block{
+        position: relative;
+        top:155px;
+    }
+    .dev-block-first-ul-list{
+        ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 7px;
+        }
+    }
+    .where-are-you-container{
+        top:235px;
+    }
+}

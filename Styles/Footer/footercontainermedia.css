@@ -1,0 +1,93 @@
+@media only screen and (max-width: 826px) {
+  .contact-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    grid-gap: 55px;
+  }
+  footer {
+    height: 1500px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .footer-end-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    grid-gap: 15px;
+  }
+  footer {
+    height: 1600px;
+  }
+}
+
+@media only screen and (max-width: 381px) {
+  .footer-end-ul ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer {
+    height: 1800px;
+  }
+}
+
+@media only screen and (max-width: 598px) {
+  footer {
+    position: relative;
+    top: 5000px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .footer-logo-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    grid-gap: 15px;
+  }
+}
+
+@media only screen and (max-width: 303px) {
+  footer {
+    position: relative;
+    top: 5200px;
+    width: 303px !important;
+  }
+}
+/*# sourceMappingURL=footercontainermedia.css.map */

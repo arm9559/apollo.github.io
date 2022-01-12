@@ -1,0 +1,76 @@
+.partnership {
+  position: relative;
+  top: 1500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partnership .partnership-container-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  grid-gap: 15px;
+}
+
+.partnership .partnership-items-block-first, .partnership .partnership-items-block-second {
+  position: relative;
+  top: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  grid-gap: 15px;
+}
+
+.partnership .partnership-items-block-first .part-block-item-item, .partnership .partnership-items-block-second .part-block-item-item {
+  width: 365px;
+  height: 237px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.partnership .partnership-items-block-first .part-block-item-item img, .partnership .partnership-items-block-second .part-block-item-item img {
+  position: relative;
+  top: 100px;
+}
+
+.partnership .partnership-items-block-first .part-block-item-item h4, .partnership .partnership-items-block-second .part-block-item-item h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.partnership .partnership-items-block-first .part-block-item-item p, .partnership .partnership-items-block-second .part-block-item-item p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #737373;
+}
+/*# sourceMappingURL=partnership.css.map */

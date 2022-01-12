@@ -1,0 +1,124 @@
+header {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../../Media/Header/headerbackground.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  height: 800px;
+  width: 100%;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+header nav {
+  position: absolute;
+  top: 63.04px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  grid-gap: 5px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  grid-gap: 34px;
+}
+
+header nav ul li {
+  color: white;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+header nav ul button {
+  width: 150px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 15px !important;
+}
+
+header nav .logo-ul button {
+  width: 55px !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .logo-ul li {
+  cursor: pointer;
+  font-size: 25px;
+  font-family: 'Pushster', cursive;
+}
+
+header nav .list-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav .list-items li a {
+  color: white;
+}
+
+header nav .list-items .icon-none {
+  display: none;
+}
+
+header .header-child {
+  position: relative;
+}
+
+header .header-child .child-title h1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 41px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+header .header-child .child-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+header button {
+  height: 60px;
+  width: 175px;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=header.css.map */

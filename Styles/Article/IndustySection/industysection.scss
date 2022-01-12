@@ -1,0 +1,16 @@
+.industry-section{
+    position: relative;
+    top:1759px;
+    height: 660px;
+    background: #FAFAFA;
+    display: flex;
+    grid-gap:75px;
+    justify-content: center;
+    align-items: center;
+        div{
+            position: relative;
+            img{
+                cursor: pointer;
+            }
+        }
+}

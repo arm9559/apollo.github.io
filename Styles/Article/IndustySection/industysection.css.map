@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAA;EACb,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAC,MAAM;EACV,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,IAAI;EACb,QAAQ,EAAC,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAOtB;;AAfD,AASQ,iBATS,CAST,GAAG,CAAA;EACC,QAAQ,EAAE,QAAQ;CAIrB;;AAdT,AAWY,iBAXK,CAST,GAAG,CAEC,GAAG,CAAA;EACC,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "industysection.scss"
+    ],
+    "names": [],
+    "file": "industysection.css"
+}

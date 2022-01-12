@@ -1,0 +1,37 @@
+@media only screen and(max-width:768px){
+    header{
+        nav{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media only screen and(max-width:614px){
+    header{
+        nav{
+            .list-items{
+                display: none;
+                .icon-none{
+                    display: block;
+                }
+            }
+            .logo-ul{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+@media only screen and(min-width:614px){
+    header{
+        nav{
+            .logo-ul{
+                .menu-button{
+                    display: none;
+                }
+            }
+        }
+    }
+}

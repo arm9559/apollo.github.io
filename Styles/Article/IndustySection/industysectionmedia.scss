@@ -1,0 +1,28 @@
+@media only screen and(max-width:600px){
+    .industry-section{
+        position:relative;
+        top:3650px;
+    }
+}
+
+@media only screen and(max-width:423px){
+    .industry-section{
+        div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img{
+                height: 70px;
+                width:75px;
+            }
+        }
+    }
+}
+
+@media only screen and(max-width:303px){
+    .industry-section{
+        position: relative;
+        top:4350px;
+    }
+}

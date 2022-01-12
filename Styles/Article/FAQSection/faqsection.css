@@ -1,0 +1,76 @@
+.faq-container {
+  position: relative;
+  top: 2090px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.faq-container span h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  color: #000000;
+}
+
+.faq-container span p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+  color: #737373;
+}
+
+.faq-container .faq-container-child {
+  position: relative;
+  top: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  grid-gap: 45px;
+}
+
+.faq-container .faq-container-child .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.faq-container .faq-container-child .item h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.faq-container .faq-container-child .item .fa {
+  cursor: pointer !important;
+}
+
+.toggle {
+  display: none;
+}
+/*# sourceMappingURL=faqsection.css.map */

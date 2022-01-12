@@ -1,0 +1,48 @@
+.slider-container{
+    position: relative;
+    top:2400px;
+    span{
+        h1{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 41px;
+            line-height: 50px;
+            text-align: center;
+        }
+        p{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 30px;
+            text-align: center;
+            color: #737373;
+        }
+    }
+    .slider-parent{
+        position: relative;
+        top:150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        button{
+            height: 75px;
+            transition: 0.5s;
+        }
+        button:hover{
+            background:black !important;
+        }
+        .slider{
+            width:400px;
+            height: 400px;
+            background:none;
+            border-radius: 15%;
+            border:1px solid #0A8BFE;
+            color:#0A8BFE;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+@media only screen and (max-width: 604px) {
+  .resources-child {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    grid-gap: 75px;
+  }
+}
+
+@media only screen and (max-width: 598px) {
+  .resources {
+    position: relative;
+    top: 3750px;
+  }
+}
+
+@media only screen and (max-width: 303px) {
+  .resources {
+    position: relative;
+    top: 4450px;
+  }
+}
+/*# sourceMappingURL=resourcesmedia.css.map */

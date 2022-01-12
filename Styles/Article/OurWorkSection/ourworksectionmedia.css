@@ -1,0 +1,70 @@
+@media only screen and (max-width: 800px) {
+  .items-container {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    grid-gap: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .items-container span h3 {
+    font-size: 25px !important;
+  }
+  .items-container span p {
+    font-size: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 298px) {
+  .our-work {
+    position: relative;
+    top: 435px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .images-container-first-child, .images-container-second-child {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .images-container-first-child .img-item, .images-container-second-child .img-item {
+    height: 624px;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .images-container-first-child, .images-container-second-child {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+}
+/*# sourceMappingURL=ourworksectionmedia.css.map */

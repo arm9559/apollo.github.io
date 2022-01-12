@@ -1,0 +1,89 @@
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../Media/Header/headerbackground.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+    height:800px;
+    width: 100%;
+    border-bottom-left-radius:24px;
+    border-bottom-right-radius:24px;
+        nav{
+            position: absolute;
+            top:63.04px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            grid-gap: 5px;
+            ul{
+                display: flex;
+                align-items: center;
+                list-style: none;
+                grid-gap: 34px;
+                    li{
+                        color:white;
+                        a{
+                            text-decoration: none;
+                        }
+                    }
+                    button{
+                        width:150px;
+                        height: 40px;
+                        box-sizing: border-box;
+                        border-radius: 4px; 
+                        font-size: 15px !important;
+                    }
+            }
+            .logo-ul{
+                button{
+                    width:55px !important;
+                    justify-content: center;
+                    align-items: center;
+                }
+                li{
+                    cursor: pointer;
+                    font-size: 25px;
+                    font-family: 'Pushster', cursive;
+                }
+            }
+            .list-items{
+                display: flex;
+                justify-content: space-around;
+                    li{
+                        a{
+                            color:white;
+                        }
+                    }
+                    .icon-none{
+                        display: none;
+                    }
+            }
+        }
+        .header-child{
+            position: relative;
+            .child-title{
+                h1{
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 41px;
+                    line-height: 50px;
+                    color: #FFFFFF;
+                }
+            }
+            .child-text{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                line-height: 30px;
+                color: #FFFFFF;
+            }
+        }
+        button{
+            height: 60px;
+            width:175px;
+            border-radius: 4px;
+        }
+}

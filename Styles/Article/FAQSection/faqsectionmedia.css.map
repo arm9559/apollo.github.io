@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACpC,AAAA,cAAc,CAAA;IACV,QAAQ,EAAE,QAAQ;IAClB,GAAG,EAAC,MAAM;GACb;;;AAEL,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,KAAK;EACpC,AAAA,cAAc,CAAA;IACV,QAAQ,EAAE,QAAQ;IAClB,GAAG,EAAC,MAAM;GACb",
+    "sources": [
+        "faqsectionmedia.scss"
+    ],
+    "names": [],
+    "file": "faqsectionmedia.css"
+}

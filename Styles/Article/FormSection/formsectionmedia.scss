@@ -1,0 +1,22 @@
+@media only screen and(max-width:599px){
+    .form-section{
+        top:3350px;
+    } 
+}
+@media only screen and(max-width:299px){
+    .form-section{
+        top:3950px;
+        width:300px !important;
+    } 
+}
+@media only screen and(max-width:297px){
+    .form{
+        position: relative;
+        left:12px;
+        .form-group{
+            input{
+                height: 35px !important;
+            }
+        }
+    }
+}
